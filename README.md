@@ -1,4 +1,6 @@
 # Sample code of Python
 
 #### CVIX
-Fetch etf50 option data from WindPy; compute daily Chinese-VIX and compare it with iVIX index.
+* Fetch etf50 option data from WindPy; 
+* Select applicable options;
+* Compute daily Chinese-VIX and compare it with iVIX index.
