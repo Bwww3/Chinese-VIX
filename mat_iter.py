@@ -25,7 +25,7 @@ class FixedPointIterator(LinearEqIterator):
         mapping = {
             "Jacobi": self.Jacobi_method,
             "GS":     self.Gaussian_Seidel_method,
-            "SOR":    self._SOR_method
+            "SOR":    self.SOR_method
             }
         R, c = mapping[self.method](D, L, U, **self.args)
         rhoR = np.abs(np.max(np.linalg.eigvals(R)))
